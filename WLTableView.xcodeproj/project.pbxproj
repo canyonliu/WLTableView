@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		F80723DD1DC7674900D259FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F80723DC1DC7674900D259FD /* main.m */; };
 		F80723E01DC7674900D259FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F80723DF1DC7674900D259FD /* AppDelegate.m */; };
-		F80723E31DC7674900D259FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80723E21DC7674900D259FD /* ViewController.m */; };
-		F80723E61DC7674900D259FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80723E41DC7674900D259FD /* Main.storyboard */; };
 		F80723E81DC7674900D259FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80723E71DC7674900D259FD /* Assets.xcassets */; };
 		F80723EB1DC7674900D259FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80723E91DC7674900D259FD /* LaunchScreen.storyboard */; };
 		F80723F61DC7674900D259FD /* WLTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80723F51DC7674900D259FD /* WLTableViewTests.m */; };
 		F80724011DC7674900D259FD /* WLTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724001DC7674900D259FD /* WLTableViewUITests.m */; };
+		F80724131DC776FB00D259FD /* WLTableViewBaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724121DC776FB00D259FD /* WLTableViewBaseItem.m */; };
+		F80724161DC77AA500D259FD /* WLTableViewBaseSectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724151DC77AA500D259FD /* WLTableViewBaseSectionObject.m */; };
+		F80724191DC838D300D259FD /* WLTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724181DC838D300D259FD /* WLTableViewDataSource.m */; };
+		F807241C1DC83D3A00D259FD /* WLBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F807241B1DC83D3A00D259FD /* WLBaseTableViewCell.m */; };
+		F80724211DC8461700D259FD /* WLBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724201DC8461700D259FD /* WLBaseTableView.m */; };
+		F80724241DC8706800D259FD /* WLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724231DC8706800D259FD /* WLBaseTableViewController.m */; };
+		F80724411DC8AD5D00D259FD /* WLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724401DC8AD5D00D259FD /* WLMainViewController.m */; };
+		F80724441DC8B2A500D259FD /* WLMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724431DC8B2A500D259FD /* WLMainTableViewCell.m */; };
+		F80724471DC8B31000D259FD /* WLMainTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F80724461DC8B31000D259FD /* WLMainTableViewDataSource.m */; };
+		F807244A1DC8DBC500D259FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80724481DC8DBC500D259FD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +47,6 @@
 		F80723DC1DC7674900D259FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F80723DE1DC7674900D259FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F80723DF1DC7674900D259FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F80723E11DC7674900D259FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F80723E21DC7674900D259FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F80723E51DC7674900D259FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F80723E71DC7674900D259FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80723EA1DC7674900D259FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80723EC1DC7674900D259FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,25 @@
 		F80723FC1DC7674900D259FD /* WLTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80724001DC7674900D259FD /* WLTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLTableViewUITests.m; sourceTree = "<group>"; };
 		F80724021DC7674900D259FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80724111DC776FB00D259FD /* WLTableViewBaseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTableViewBaseItem.h; sourceTree = "<group>"; };
+		F80724121DC776FB00D259FD /* WLTableViewBaseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTableViewBaseItem.m; sourceTree = "<group>"; };
+		F80724141DC77AA500D259FD /* WLTableViewBaseSectionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTableViewBaseSectionObject.h; sourceTree = "<group>"; };
+		F80724151DC77AA500D259FD /* WLTableViewBaseSectionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTableViewBaseSectionObject.m; sourceTree = "<group>"; };
+		F80724171DC838D300D259FD /* WLTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTableViewDataSource.h; sourceTree = "<group>"; };
+		F80724181DC838D300D259FD /* WLTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTableViewDataSource.m; sourceTree = "<group>"; };
+		F807241A1DC83D3A00D259FD /* WLBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableViewCell.h; sourceTree = "<group>"; };
+		F807241B1DC83D3A00D259FD /* WLBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseTableViewCell.m; sourceTree = "<group>"; };
+		F807241F1DC8461700D259FD /* WLBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableView.h; sourceTree = "<group>"; };
+		F80724201DC8461700D259FD /* WLBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseTableView.m; sourceTree = "<group>"; };
+		F80724221DC8706800D259FD /* WLBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableViewController.h; sourceTree = "<group>"; };
+		F80724231DC8706800D259FD /* WLBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseTableViewController.m; sourceTree = "<group>"; };
+		F807243F1DC8AD5D00D259FD /* WLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMainViewController.h; sourceTree = "<group>"; };
+		F80724401DC8AD5D00D259FD /* WLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMainViewController.m; sourceTree = "<group>"; };
+		F80724421DC8B2A500D259FD /* WLMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMainTableViewCell.h; sourceTree = "<group>"; };
+		F80724431DC8B2A500D259FD /* WLMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMainTableViewCell.m; sourceTree = "<group>"; };
+		F80724451DC8B31000D259FD /* WLMainTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMainTableViewDataSource.h; sourceTree = "<group>"; };
+		F80724461DC8B31000D259FD /* WLMainTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMainTableViewDataSource.m; sourceTree = "<group>"; };
+		F80724491DC8DBC500D259FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +125,20 @@
 		F80723DA1DC7674900D259FD /* WLTableView */ = {
 			isa = PBXGroup;
 			children = (
+				F80724481DC8DBC500D259FD /* Main.storyboard */,
+				F80724101DC7768200D259FD /* Base */,
 				F80723DE1DC7674900D259FD /* AppDelegate.h */,
 				F80723DF1DC7674900D259FD /* AppDelegate.m */,
-				F80723E11DC7674900D259FD /* ViewController.h */,
-				F80723E21DC7674900D259FD /* ViewController.m */,
-				F80723E41DC7674900D259FD /* Main.storyboard */,
 				F80723E71DC7674900D259FD /* Assets.xcassets */,
 				F80723E91DC7674900D259FD /* LaunchScreen.storyboard */,
 				F80723EC1DC7674900D259FD /* Info.plist */,
 				F80723DB1DC7674900D259FD /* Supporting Files */,
+				F807243F1DC8AD5D00D259FD /* WLMainViewController.h */,
+				F80724401DC8AD5D00D259FD /* WLMainViewController.m */,
+				F80724421DC8B2A500D259FD /* WLMainTableViewCell.h */,
+				F80724431DC8B2A500D259FD /* WLMainTableViewCell.m */,
+				F80724451DC8B31000D259FD /* WLMainTableViewDataSource.h */,
+				F80724461DC8B31000D259FD /* WLMainTableViewDataSource.m */,
 			);
 			path = WLTableView;
 			sourceTree = "<group>";
@@ -138,6 +167,25 @@
 				F80724021DC7674900D259FD /* Info.plist */,
 			);
 			path = WLTableViewUITests;
+			sourceTree = "<group>";
+		};
+		F80724101DC7768200D259FD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F80724111DC776FB00D259FD /* WLTableViewBaseItem.h */,
+				F80724121DC776FB00D259FD /* WLTableViewBaseItem.m */,
+				F80724141DC77AA500D259FD /* WLTableViewBaseSectionObject.h */,
+				F80724151DC77AA500D259FD /* WLTableViewBaseSectionObject.m */,
+				F80724171DC838D300D259FD /* WLTableViewDataSource.h */,
+				F80724181DC838D300D259FD /* WLTableViewDataSource.m */,
+				F807241A1DC83D3A00D259FD /* WLBaseTableViewCell.h */,
+				F807241B1DC83D3A00D259FD /* WLBaseTableViewCell.m */,
+				F807241F1DC8461700D259FD /* WLBaseTableView.h */,
+				F80724201DC8461700D259FD /* WLBaseTableView.m */,
+				F80724221DC8706800D259FD /* WLBaseTableViewController.h */,
+				F80724231DC8706800D259FD /* WLBaseTableViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F807244A1DC8DBC500D259FD /* Main.storyboard in Resources */,
 				F80723EB1DC7674900D259FD /* LaunchScreen.storyboard in Resources */,
 				F80723E81DC7674900D259FD /* Assets.xcassets in Resources */,
-				F80723E61DC7674900D259FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80723E31DC7674900D259FD /* ViewController.m in Sources */,
+				F80724161DC77AA500D259FD /* WLTableViewBaseSectionObject.m in Sources */,
+				F807241C1DC83D3A00D259FD /* WLBaseTableViewCell.m in Sources */,
+				F80724191DC838D300D259FD /* WLTableViewDataSource.m in Sources */,
+				F80724131DC776FB00D259FD /* WLTableViewBaseItem.m in Sources */,
+				F80724471DC8B31000D259FD /* WLMainTableViewDataSource.m in Sources */,
+				F80724441DC8B2A500D259FD /* WLMainTableViewCell.m in Sources */,
+				F80724241DC8706800D259FD /* WLBaseTableViewController.m in Sources */,
+				F80724411DC8AD5D00D259FD /* WLMainViewController.m in Sources */,
+				F80724211DC8461700D259FD /* WLBaseTableView.m in Sources */,
 				F80723E01DC7674900D259FD /* AppDelegate.m in Sources */,
 				F80723DD1DC7674900D259FD /* main.m in Sources */,
 			);
@@ -311,20 +367,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F80723E41DC7674900D259FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F80723E51DC7674900D259FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F80723E91DC7674900D259FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F80723EA1DC7674900D259FD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F80724481DC8DBC500D259FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80724491DC8DBC500D259FD /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WLTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baidu.WLTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WLTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baidu.WLTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
